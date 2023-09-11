@@ -3,8 +3,11 @@ import Title from "../../ui/title/Title";
 export default function About() {
   return (
     <div
+      style={{
+        backgroundImage: "url('./image/537bcd9d7a68711989a5cff4c4c65716.jpg')",
+      }}
       className="w-full h-[1000px] relative
-                    bg-[url('./image/537bcd9d7a68711989a5cff4c4c65716.jpg')] 
+                    
                     bg-center 
                     bg-cover 
                     bg-no-repeat
