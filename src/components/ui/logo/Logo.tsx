@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function Logo({
   src,
   className,
@@ -5,5 +7,9 @@ export default function Logo({
   src: string;
   className: string;
 }) {
-  return <img src={src} className={className} />;
+  return (
+    <Link to="about" smooth={true}>
+      <img src={src} className={className} />
+    </Link>
+  );
 }

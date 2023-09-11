@@ -21,7 +21,10 @@ export default function Header() {
       }}
     >
       <div className="w-[1280px] h-2/3 mx-auto flex items-center justify-between">
-        <Logo src="./image/LogoWhite.png" className="w-[200px] h-fit" />
+        <Logo
+          src="./image/LogoWhite.png"
+          className="w-[200px] h-fit cursor-pointer"
+        />
         <nav>
           {menuButtonsName.map(name => {
             const id = uuidv4();

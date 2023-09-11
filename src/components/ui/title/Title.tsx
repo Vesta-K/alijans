@@ -5,5 +5,5 @@ export default function Title({
   children: string;
   className: string;
 }) {
-  return <h1 className={className}>{children}</h1>;
+  return <div className={className}>{children}</div>;
 }

@@ -3,6 +3,7 @@ import Title from "../../ui/title/Title";
 export default function About() {
   return (
     <div
+      id="about"
       style={{
         backgroundImage: "url('./image/537bcd9d7a68711989a5cff4c4c65716.jpg')",
       }}
@@ -21,11 +22,17 @@ export default function About() {
                     before:bg-gradient-to-t 
                     before:from-[#2F2E33]"
     >
-      <div className="absolute right-0 my-52 mx-10 space-y-8 text-9xl text-right font-ultraBold">
-        <Title className="text-[#2F2E33] ">МОДУЛЬНЫЕ</Title>
-        <Title className=" text-[#D5D6D2]">БЫСТРОВОЗВОДИМЫЕ</Title>
-        <Title className=" text-[#D5D6D2] ">ЗДАНИЯ</Title>
-        <div className="absolute w-fit right-0 p-20 space-x-40">
+      <div className="absolute w-full pt-32 pr-10">
+        <Title className="text-[#2F2E33] text-[180px] text-right font-ultraBold ">
+          МОДУЛЬНЫЕ
+        </Title>
+        <Title className=" text-[#D5D6D2] text-9xl -mt-5 mb-8 text-right font-ultraBold">
+          БЫСТРОВОЗВОДИМЫЕ
+        </Title>
+        <Title className=" text-[#D5D6D2] text-9xl text-right font-ultraBold ">
+          ЗДАНИЯ
+        </Title>
+        <div className="text-right my-28 space-x-20">
           <Button>РАССЧИТАТЬ СТОИМОСТЬ</Button>
           <Button>ОБРАТНЫЙ ЗВОНОК</Button>
         </div>
