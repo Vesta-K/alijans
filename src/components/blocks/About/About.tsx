@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       className="w-full h-[1000px] relative
-                    bg-[url('src/assets/image/537bcd9d7a68711989a5cff4c4c65716.jpg')] 
+                    bg-[url('public/image/537bcd9d7a68711989a5cff4c4c65716.jpg')] 
                     bg-center 
                     bg-cover 
                     bg-no-repeat
